@@ -1,0 +1,24 @@
+[
+    {
+        "incident_id": "INC001",
+        "timestamp": "2025-06-20 14:30:00+00:00",
+        "severity": "ERROR",
+        "service": "UserAuthService",
+        "error_message": "Database connection timeout",
+        "source": "Dynatrace",
+        "additional_info": "TimeoutException at DBConnection.java line 42",
+        "classification": "Real Issue",
+        "confidence": 0.9
+    },
+    {
+        "incident_id": "INC002",
+        "timestamp": "2025-06-20 15:00:00+00:00",
+        "severity": "WARN",
+        "service": "PaymentGateway",
+        "error_message": "Slow response detected",
+        "source": "Splunk",
+        "additional_info": "Response time exceeded 2 seconds threshold",
+        "classification": "Informational / Low Priority",
+        "confidence": 0.6
+    }
+]
