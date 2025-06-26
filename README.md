@@ -1,5 +1,7 @@
 # 🔍 Incident Classification Agent (MCP Prototype)
 
+### Google colab project link: https://colab.research.google.com/drive/1lt3pRwrFl0jZopTJuIKCYNZPq41A1NA_?usp=sharing
+
 This project is a prototype of an MCP (Multi-capability Prompting) agent designed to classify incident alerts from observability platforms. It automatically categorizes incoming alerts based on severity and message context, helping reduce noise and focus attention on real operational issues.
 
 ### Supported classifications:
